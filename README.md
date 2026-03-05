@@ -1,29 +1,41 @@
-🧬 Breast Cancer Classification & Decision Boundaries
-This project explores the implementation of the K-Nearest Neighbors (KNN) algorithm applied to medical diagnostics. It demonstrates how supervised learning can classify breast cancer tumors as Malignant or Benign based on their cellular characteristics.
+🧬 Breast Cancer Diagnosis: From EDA to Machine Learning (KNN)
+This repository demonstrates a complete Data Science workflow using the UCI Breast Cancer Wisconsin dataset. It is divided into two main stages: comprehensive Data Preparation/Exploratory Data Analysis (EDA) and the implementation of a K-Nearest Neighbors (KNN) classification model.
 
-📋 Key Features
-Algorithm Implementation: Practical use of the KNN classifier using the UCI Breast Cancer Wisconsin dataset.
+📋 Project Structure
+Data-Preparation-and-EDA.ipynb: Focuses on understanding the raw data, handling missing values, and performing statistical analysis. It includes feature scaling and normalization techniques.
 
-Data Standardization: Application of StandardScaler to ensure distance-based calculations are accurate and unbiased.
+KNN.ipynb: Focuses on the implementation of the K-Nearest Neighbors algorithm, hyperparameter tuning (K-value selection), and the visualization of decision boundaries.
 
-Dimensionality & Features: Handling multi-dimensional medical data and selecting features for effective classification.
+🎓 Academic Context
+Course: Machine Learning / Data Mining Module.
 
-Decision Boundary Analysis: - Visualization of how the model creates "influence zones" for each class.
-
-Exploration of how the model separates data points in a 2D space.
-
-Model Evaluation: Splitting data into training and testing sets to validate the model's predictive power on unseen data.
+Objective: To clean complex medical data and build a predictive model capable of distinguishing between Malignant and Benign tumors.
 
 🛠️ Tech Stack
 Python
 
-Libraries: Scikit-Learn (for KNN and Scaling), Matplotlib & Seaborn (for visualization), Pandas & Numpy.
+Libraries: Pandas, Numpy, Scikit-Learn, Matplotlib, Seaborn.
 
-Environment: Jupyter Notebook.
+Key Techniques: - Feature Scaling (StandardScaler & MinMaxScaler).
+
+Label Encoding.
+
+Train-Test Split.
+
+Visualization of Decision Boundaries.
+
+📊 Key Features
+Exploratory Analysis: Correlation heatmaps and distribution plots to identify the most significant predictors of cancer.
+
+Data Preprocessing: Robust cleaning pipeline to prepare data for distance-based algorithms.
+
+Classification Model: A tuned KNN model with a visual analysis of how the classification "zones" are formed in a 2D space.
 
 🔍 Visualizations Included
-Decision Boundary Plots: Colored regions showing exactly where the model classifies a tumor as Benign vs. Malignant.
+Correlation Matrices: Identifying relationships between tumor features.
 
-Scatter Plots: Distribution of data points showing the overlap and separation of tumor classes.
+Decision Boundaries: Graphical representation of the KNN model's logic.
 
-Developed as part of a Machine Learning module during my college studies.
+Distribution Charts: Comparison of feature ranges for benign vs. malignant samples.
+
+This project was developed as a college assignment to demonstrate proficiency in the complete Machine Learning pipeline.
